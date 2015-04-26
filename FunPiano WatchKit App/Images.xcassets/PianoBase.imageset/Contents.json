@@ -1,0 +1,25 @@
+{
+  "images" : [
+    {
+      "idiom" : "watch",
+      "scale" : "2x",
+      "filename" : "PianoBase42-1.png"
+    },
+    {
+      "idiom" : "watch",
+      "screenWidth" : "{130,145}",
+      "filename" : "PianoBase38.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "watch",
+      "screenWidth" : "{146,165}",
+      "filename" : "PianoBase42.png",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

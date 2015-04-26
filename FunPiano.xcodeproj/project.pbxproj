@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF08C9071ABF9AA400692A37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF08C9061ABF9AA400692A37 /* main.m */; };
+		FF08C90A1ABF9AA400692A37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF08C9091ABF9AA400692A37 /* AppDelegate.m */; };
+		FF08C90D1ABF9AA400692A37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF08C90C1ABF9AA400692A37 /* ViewController.m */; };
+		FF08C9101ABF9AA400692A37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF08C90E1ABF9AA400692A37 /* Main.storyboard */; };
+		FF08C9121ABF9AA400692A37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF08C9111ABF9AA400692A37 /* Images.xcassets */; };
+		FF08C9151ABF9AA400692A37 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF08C9131ABF9AA400692A37 /* LaunchScreen.xib */; };
+		FF08C9211ABF9AA400692A37 /* FunPianoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF08C9201ABF9AA400692A37 /* FunPianoTests.m */; };
+		FF08C9341ABF9ABC00692A37 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF08C9331ABF9ABC00692A37 /* InterfaceController.m */; };
+		FF08C9361ABF9ABC00692A37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF08C9351ABF9ABC00692A37 /* Images.xcassets */; };
+		FF08C93A1ABF9ABC00692A37 /* FunPiano WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FF08C9391ABF9ABC00692A37 /* FunPiano WatchKit App.app */; };
+		FF08C9421ABF9ABC00692A37 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF08C9401ABF9ABC00692A37 /* Interface.storyboard */; };
+		FF08C9441ABF9ABC00692A37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF08C9431ABF9ABC00692A37 /* Images.xcassets */; };
+		FF08C9471ABF9ABC00692A37 /* FunPiano WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FF08C92E1ABF9ABC00692A37 /* FunPiano WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FFD312E41AC133AD00904DE1 /* Piano-3A.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FFD312D71AC133AD00904DE1 /* Piano-3A.m4a */; };
+		FFD312E51AC133AD00904DE1 /* Piano-3As.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FFD312D81AC133AD00904DE1 /* Piano-3As.m4a */; };
+		FFD312E61AC133AD00904DE1 /* Piano-3B.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FFD312D91AC133AD00904DE1 /* Piano-3B.m4a */; };
+		FFD312E71AC133AD00904DE1 /* Piano-3C.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FFD312DA1AC133AD00904DE1 /* Piano-3C.m4a */; };
+		FFD312E81AC133AD00904DE1 /* Piano-3Cs.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FFD312DB1AC133AD00904DE1 /* Piano-3Cs.m4a */; };
+		FFD312E91AC133AD00904DE1 /* Piano-3D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FFD312DC1AC133AD00904DE1 /* Piano-3D.m4a */; };
+		FFD312EA1AC133AD00904DE1 /* Piano-3Ds.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FFD312DD1AC133AD00904DE1 /* Piano-3Ds.m4a */; };
+		FFD312EB1AC133AD00904DE1 /* Piano-3E.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FFD312DE1AC133AD00904DE1 /* Piano-3E.m4a */; };
+		FFD312EC1AC133AD00904DE1 /* Piano-3F.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FFD312DF1AC133AD00904DE1 /* Piano-3F.m4a */; };
+		FFD312ED1AC133AD00904DE1 /* Piano-3Fs.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FFD312E01AC133AD00904DE1 /* Piano-3Fs.m4a */; };
+		FFD312EE1AC133AD00904DE1 /* Piano-3G.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FFD312E11AC133AD00904DE1 /* Piano-3G.m4a */; };
+		FFD312EF1AC133AD00904DE1 /* Piano-3Gs.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FFD312E21AC133AD00904DE1 /* Piano-3Gs.m4a */; };
+		FFD312F01AC133AD00904DE1 /* Piano-4A.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FFD312E31AC133AD00904DE1 /* Piano-4A.m4a */; };
+		FFD312F31AC133F200904DE1 /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD312F11AC133F200904DE1 /* AppData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF08C91B1ABF9AA400692A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF08C8F91ABF9AA400692A37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF08C9001ABF9AA400692A37;
+			remoteInfo = FunPiano;
+		};
+		FF08C93B1ABF9ABC00692A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF08C8F91ABF9AA400692A37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF08C9381ABF9ABC00692A37;
+			remoteInfo = "FunPiano WatchKit App";
+		};
+		FF08C9451ABF9ABC00692A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF08C8F91ABF9AA400692A37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF08C92D1ABF9ABC00692A37;
+			remoteInfo = "FunPiano WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF08C94E1ABF9ABC00692A37 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FF08C9471ABF9ABC00692A37 /* FunPiano WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF08C9011ABF9AA400692A37 /* FunPiano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunPiano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF08C9051ABF9AA400692A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF08C9061ABF9AA400692A37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF08C9081ABF9AA400692A37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF08C9091ABF9AA400692A37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF08C90B1ABF9AA400692A37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF08C90C1ABF9AA400692A37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF08C90F1ABF9AA400692A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF08C9111ABF9AA400692A37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF08C9141ABF9AA400692A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FF08C91A1ABF9AA400692A37 /* FunPianoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunPianoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF08C91F1ABF9AA400692A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF08C9201ABF9AA400692A37 /* FunPianoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunPianoTests.m; sourceTree = "<group>"; };
+		FF08C92E1ABF9ABC00692A37 /* FunPiano WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FunPiano WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF08C9311ABF9ABC00692A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF08C9321ABF9ABC00692A37 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		FF08C9331ABF9ABC00692A37 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		FF08C9351ABF9ABC00692A37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF08C9391ABF9ABC00692A37 /* FunPiano WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FunPiano WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF08C93F1ABF9ABC00692A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF08C9411ABF9ABC00692A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FF08C9431ABF9ABC00692A37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFD312D71AC133AD00904DE1 /* Piano-3A.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Piano-3A.m4a"; sourceTree = "<group>"; };
+		FFD312D81AC133AD00904DE1 /* Piano-3As.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Piano-3As.m4a"; sourceTree = "<group>"; };
+		FFD312D91AC133AD00904DE1 /* Piano-3B.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Piano-3B.m4a"; sourceTree = "<group>"; };
+		FFD312DA1AC133AD00904DE1 /* Piano-3C.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Piano-3C.m4a"; sourceTree = "<group>"; };
+		FFD312DB1AC133AD00904DE1 /* Piano-3Cs.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Piano-3Cs.m4a"; sourceTree = "<group>"; };
+		FFD312DC1AC133AD00904DE1 /* Piano-3D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Piano-3D.m4a"; sourceTree = "<group>"; };
+		FFD312DD1AC133AD00904DE1 /* Piano-3Ds.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Piano-3Ds.m4a"; sourceTree = "<group>"; };
+		FFD312DE1AC133AD00904DE1 /* Piano-3E.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Piano-3E.m4a"; sourceTree = "<group>"; };
+		FFD312DF1AC133AD00904DE1 /* Piano-3F.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Piano-3F.m4a"; sourceTree = "<group>"; };
+		FFD312E01AC133AD00904DE1 /* Piano-3Fs.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Piano-3Fs.m4a"; sourceTree = "<group>"; };
+		FFD312E11AC133AD00904DE1 /* Piano-3G.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Piano-3G.m4a"; sourceTree = "<group>"; };
+		FFD312E21AC133AD00904DE1 /* Piano-3Gs.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Piano-3Gs.m4a"; sourceTree = "<group>"; };
+		FFD312E31AC133AD00904DE1 /* Piano-4A.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Piano-4A.m4a"; sourceTree = "<group>"; };
+		FFD312F11AC133F200904DE1 /* AppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppData.m; sourceTree = "<group>"; };
+		FFD312F21AC133F200904DE1 /* AppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF08C8FE1ABF9AA400692A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF08C9171ABF9AA400692A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF08C92B1ABF9ABC00692A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF08C8F81ABF9AA400692A37 = {
+			isa = PBXGroup;
+			children = (
+				FF08C9031ABF9AA400692A37 /* FunPiano */,
+				FF08C91D1ABF9AA400692A37 /* FunPianoTests */,
+				FF08C92F1ABF9ABC00692A37 /* FunPiano WatchKit Extension */,
+				FF08C93D1ABF9ABC00692A37 /* FunPiano WatchKit App */,
+				FFD312D51AC133AD00904DE1 /* Resource */,
+				FF08C9021ABF9AA400692A37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF08C9021ABF9AA400692A37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF08C9011ABF9AA400692A37 /* FunPiano.app */,
+				FF08C91A1ABF9AA400692A37 /* FunPianoTests.xctest */,
+				FF08C92E1ABF9ABC00692A37 /* FunPiano WatchKit Extension.appex */,
+				FF08C9391ABF9ABC00692A37 /* FunPiano WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF08C9031ABF9AA400692A37 /* FunPiano */ = {
+			isa = PBXGroup;
+			children = (
+				FFD312F11AC133F200904DE1 /* AppData.m */,
+				FFD312F21AC133F200904DE1 /* AppData.h */,
+				FF08C9081ABF9AA400692A37 /* AppDelegate.h */,
+				FF08C9091ABF9AA400692A37 /* AppDelegate.m */,
+				FF08C90B1ABF9AA400692A37 /* ViewController.h */,
+				FF08C90C1ABF9AA400692A37 /* ViewController.m */,
+				FF08C90E1ABF9AA400692A37 /* Main.storyboard */,
+				FF08C9111ABF9AA400692A37 /* Images.xcassets */,
+				FF08C9131ABF9AA400692A37 /* LaunchScreen.xib */,
+				FF08C9041ABF9AA400692A37 /* Supporting Files */,
+			);
+			path = FunPiano;
+			sourceTree = "<group>";
+		};
+		FF08C9041ABF9AA400692A37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF08C9051ABF9AA400692A37 /* Info.plist */,
+				FF08C9061ABF9AA400692A37 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF08C91D1ABF9AA400692A37 /* FunPianoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF08C9201ABF9AA400692A37 /* FunPianoTests.m */,
+				FF08C91E1ABF9AA400692A37 /* Supporting Files */,
+			);
+			path = FunPianoTests;
+			sourceTree = "<group>";
+		};
+		FF08C91E1ABF9AA400692A37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF08C91F1ABF9AA400692A37 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF08C92F1ABF9ABC00692A37 /* FunPiano WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FF08C9321ABF9ABC00692A37 /* InterfaceController.h */,
+				FF08C9331ABF9ABC00692A37 /* InterfaceController.m */,
+				FF08C9351ABF9ABC00692A37 /* Images.xcassets */,
+				FF08C9301ABF9ABC00692A37 /* Supporting Files */,
+			);
+			path = "FunPiano WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FF08C9301ABF9ABC00692A37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF08C9311ABF9ABC00692A37 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF08C93D1ABF9ABC00692A37 /* FunPiano WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FF08C9401ABF9ABC00692A37 /* Interface.storyboard */,
+				FF08C9431ABF9ABC00692A37 /* Images.xcassets */,
+				FF08C93E1ABF9ABC00692A37 /* Supporting Files */,
+			);
+			path = "FunPiano WatchKit App";
+			sourceTree = "<group>";
+		};
+		FF08C93E1ABF9ABC00692A37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF08C93F1ABF9ABC00692A37 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFD312D51AC133AD00904DE1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FFD312D61AC133AD00904DE1 /* Sound */,
+			);
+			name = Resource;
+			path = FunPiano/Resource;
+			sourceTree = "<group>";
+		};
+		FFD312D61AC133AD00904DE1 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				FFD312D71AC133AD00904DE1 /* Piano-3A.m4a */,
+				FFD312D81AC133AD00904DE1 /* Piano-3As.m4a */,
+				FFD312D91AC133AD00904DE1 /* Piano-3B.m4a */,
+				FFD312DA1AC133AD00904DE1 /* Piano-3C.m4a */,
+				FFD312DB1AC133AD00904DE1 /* Piano-3Cs.m4a */,
+				FFD312DC1AC133AD00904DE1 /* Piano-3D.m4a */,
+				FFD312DD1AC133AD00904DE1 /* Piano-3Ds.m4a */,
+				FFD312DE1AC133AD00904DE1 /* Piano-3E.m4a */,
+				FFD312DF1AC133AD00904DE1 /* Piano-3F.m4a */,
+				FFD312E01AC133AD00904DE1 /* Piano-3Fs.m4a */,
+				FFD312E11AC133AD00904DE1 /* Piano-3G.m4a */,
+				FFD312E21AC133AD00904DE1 /* Piano-3Gs.m4a */,
+				FFD312E31AC133AD00904DE1 /* Piano-4A.m4a */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF08C9001ABF9AA400692A37 /* FunPiano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF08C9241ABF9AA400692A37 /* Build configuration list for PBXNativeTarget "FunPiano" */;
+			buildPhases = (
+				FF08C8FD1ABF9AA400692A37 /* Sources */,
+				FF08C8FE1ABF9AA400692A37 /* Frameworks */,
+				FF08C8FF1ABF9AA400692A37 /* Resources */,
+				FF08C94E1ABF9ABC00692A37 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF08C9461ABF9ABC00692A37 /* PBXTargetDependency */,
+			);
+			name = FunPiano;
+			productName = FunPiano;
+			productReference = FF08C9011ABF9AA400692A37 /* FunPiano.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF08C9191ABF9AA400692A37 /* FunPianoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF08C9271ABF9AA400692A37 /* Build configuration list for PBXNativeTarget "FunPianoTests" */;
+			buildPhases = (
+				FF08C9161ABF9AA400692A37 /* Sources */,
+				FF08C9171ABF9AA400692A37 /* Frameworks */,
+				FF08C9181ABF9AA400692A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF08C91C1ABF9AA400692A37 /* PBXTargetDependency */,
+			);
+			name = FunPianoTests;
+			productName = FunPianoTests;
+			productReference = FF08C91A1ABF9AA400692A37 /* FunPianoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF08C92D1ABF9ABC00692A37 /* FunPiano WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF08C94B1ABF9ABC00692A37 /* Build configuration list for PBXNativeTarget "FunPiano WatchKit Extension" */;
+			buildPhases = (
+				FF08C92A1ABF9ABC00692A37 /* Sources */,
+				FF08C92B1ABF9ABC00692A37 /* Frameworks */,
+				FF08C92C1ABF9ABC00692A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF08C93C1ABF9ABC00692A37 /* PBXTargetDependency */,
+			);
+			name = "FunPiano WatchKit Extension";
+			productName = "FunPiano WatchKit Extension";
+			productReference = FF08C92E1ABF9ABC00692A37 /* FunPiano WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		FF08C9381ABF9ABC00692A37 /* FunPiano WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF08C9481ABF9ABC00692A37 /* Build configuration list for PBXNativeTarget "FunPiano WatchKit App" */;
+			buildPhases = (
+				FF08C9371ABF9ABC00692A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FunPiano WatchKit App";
+			productName = "FunPiano WatchKit App";
+			productReference = FF08C9391ABF9ABC00692A37 /* FunPiano WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF08C8F91ABF9AA400692A37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Newton Japan";
+				TargetAttributes = {
+					FF08C9001ABF9AA400692A37 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FF08C9191ABF9AA400692A37 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FF08C9001ABF9AA400692A37;
+					};
+					FF08C92D1ABF9ABC00692A37 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FF08C9381ABF9ABC00692A37 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = FF08C8FC1ABF9AA400692A37 /* Build configuration list for PBXProject "FunPiano" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF08C8F81ABF9AA400692A37;
+			productRefGroup = FF08C9021ABF9AA400692A37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF08C9001ABF9AA400692A37 /* FunPiano */,
+				FF08C9191ABF9AA400692A37 /* FunPianoTests */,
+				FF08C92D1ABF9ABC00692A37 /* FunPiano WatchKit Extension */,
+				FF08C9381ABF9ABC00692A37 /* FunPiano WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF08C8FF1ABF9AA400692A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD312EE1AC133AD00904DE1 /* Piano-3G.m4a in Resources */,
+				FFD312E41AC133AD00904DE1 /* Piano-3A.m4a in Resources */,
+				FF08C9101ABF9AA400692A37 /* Main.storyboard in Resources */,
+				FFD312E91AC133AD00904DE1 /* Piano-3D.m4a in Resources */,
+				FFD312E81AC133AD00904DE1 /* Piano-3Cs.m4a in Resources */,
+				FFD312F01AC133AD00904DE1 /* Piano-4A.m4a in Resources */,
+				FFD312E71AC133AD00904DE1 /* Piano-3C.m4a in Resources */,
+				FFD312EC1AC133AD00904DE1 /* Piano-3F.m4a in Resources */,
+				FFD312EF1AC133AD00904DE1 /* Piano-3Gs.m4a in Resources */,
+				FFD312E51AC133AD00904DE1 /* Piano-3As.m4a in Resources */,
+				FF08C9151ABF9AA400692A37 /* LaunchScreen.xib in Resources */,
+				FFD312EA1AC133AD00904DE1 /* Piano-3Ds.m4a in Resources */,
+				FF08C9121ABF9AA400692A37 /* Images.xcassets in Resources */,
+				FFD312E61AC133AD00904DE1 /* Piano-3B.m4a in Resources */,
+				FFD312ED1AC133AD00904DE1 /* Piano-3Fs.m4a in Resources */,
+				FFD312EB1AC133AD00904DE1 /* Piano-3E.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF08C9181ABF9AA400692A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF08C92C1ABF9ABC00692A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF08C93A1ABF9ABC00692A37 /* FunPiano WatchKit App.app in Resources */,
+				FF08C9361ABF9ABC00692A37 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF08C9371ABF9ABC00692A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF08C9421ABF9ABC00692A37 /* Interface.storyboard in Resources */,
+				FF08C9441ABF9ABC00692A37 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF08C8FD1ABF9AA400692A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF08C90D1ABF9AA400692A37 /* ViewController.m in Sources */,
+				FF08C90A1ABF9AA400692A37 /* AppDelegate.m in Sources */,
+				FF08C9071ABF9AA400692A37 /* main.m in Sources */,
+				FFD312F31AC133F200904DE1 /* AppData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF08C9161ABF9AA400692A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF08C9211ABF9AA400692A37 /* FunPianoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF08C92A1ABF9ABC00692A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF08C9341ABF9ABC00692A37 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF08C91C1ABF9AA400692A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF08C9001ABF9AA400692A37 /* FunPiano */;
+			targetProxy = FF08C91B1ABF9AA400692A37 /* PBXContainerItemProxy */;
+		};
+		FF08C93C1ABF9ABC00692A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF08C9381ABF9ABC00692A37 /* FunPiano WatchKit App */;
+			targetProxy = FF08C93B1ABF9ABC00692A37 /* PBXContainerItemProxy */;
+		};
+		FF08C9461ABF9ABC00692A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF08C92D1ABF9ABC00692A37 /* FunPiano WatchKit Extension */;
+			targetProxy = FF08C9451ABF9ABC00692A37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF08C90E1ABF9AA400692A37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF08C90F1ABF9AA400692A37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF08C9131ABF9AA400692A37 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF08C9141ABF9AA400692A37 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FF08C9401ABF9ABC00692A37 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF08C9411ABF9ABC00692A37 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF08C9221ABF9AA400692A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF08C9231ABF9AA400692A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF08C9251ABF9AA400692A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunPiano/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF08C9261ABF9AA400692A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunPiano/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF08C9281ABF9AA400692A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FunPianoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunPiano.app/FunPiano";
+			};
+			name = Debug;
+		};
+		FF08C9291ABF9AA400692A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FunPianoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunPiano.app/FunPiano";
+			};
+			name = Release;
+		};
+		FF08C9491ABF9ABC00692A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = FunPiano_WatchKit_Extension;
+				INFOPLIST_FILE = "FunPiano WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		FF08C94A1ABF9ABC00692A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = FunPiano_WatchKit_Extension;
+				INFOPLIST_FILE = "FunPiano WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		FF08C94C1ABF9ABC00692A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FunPiano WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FF08C94D1ABF9ABC00692A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FunPiano WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF08C8FC1ABF9AA400692A37 /* Build configuration list for PBXProject "FunPiano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF08C9221ABF9AA400692A37 /* Debug */,
+				FF08C9231ABF9AA400692A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF08C9241ABF9AA400692A37 /* Build configuration list for PBXNativeTarget "FunPiano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF08C9251ABF9AA400692A37 /* Debug */,
+				FF08C9261ABF9AA400692A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF08C9271ABF9AA400692A37 /* Build configuration list for PBXNativeTarget "FunPianoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF08C9281ABF9AA400692A37 /* Debug */,
+				FF08C9291ABF9AA400692A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF08C9481ABF9ABC00692A37 /* Build configuration list for PBXNativeTarget "FunPiano WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF08C9491ABF9ABC00692A37 /* Debug */,
+				FF08C94A1ABF9ABC00692A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF08C94B1ABF9ABC00692A37 /* Build configuration list for PBXNativeTarget "FunPiano WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF08C94C1ABF9ABC00692A37 /* Debug */,
+				FF08C94D1ABF9ABC00692A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF08C8F91ABF9AA400692A37 /* Project object */;
+}

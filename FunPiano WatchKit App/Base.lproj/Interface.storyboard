@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--PianoBase-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller backgroundImage="PianoBase" id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <group width="1" height="0.25" alignment="left" id="3BV-5i-OOz">
+                            <items>
+                                <button width="0.40000000000000013" height="1" alignment="left" alpha="0.40000000000000002" accessibilityValue="G#" id="dfq-TQ-iA6">
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <variation key="device=watch42mm" width="0.38"/>
+                                    <connections>
+                                        <action selector="keyGs" destination="AgC-eL-Hgc" id="Ww0-5h-2VV"/>
+                                    </connections>
+                                </button>
+                                <button width="0.30000000000000016" height="1" alignment="left" alpha="0.40000000000000002" accessibilityValue="A#" id="gLN-9Q-ZSO">
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="keyAs" destination="AgC-eL-Hgc" id="3ip-Su-D9Y"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <variation key="device=watch38mm">
+                                <mask key="items">
+                                    <include reference="dfq-TQ-iA6"/>
+                                </mask>
+                            </variation>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="dfq-TQ-iA6"/>
+                                    <include reference="gLN-9Q-ZSO"/>
+                                </mask>
+                            </variation>
+                        </group>
+                        <group width="1" height="0.25" alignment="left" id="8hl-cb-Pzx">
+                            <items>
+                                <button width="0.25" height="1" alignment="left" alpha="0.40000000000000002" accessibilityValue="G" id="2Ex-v7-QVk">
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="keyG" destination="AgC-eL-Hgc" id="5Ae-Mv-vcG"/>
+                                    </connections>
+                                </button>
+                                <button width="0.25" height="1" alignment="left" alpha="0.40000000000000002" accessibilityValue="A" id="9sr-dn-NKF">
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="keyA" destination="AgC-eL-Hgc" id="SL7-IK-Vht"/>
+                                    </connections>
+                                </button>
+                                <button width="0.25" height="1" alignment="left" alpha="0.40000000000000002" accessibilityValue="B" id="ACC-qA-wTc">
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="keyB" destination="AgC-eL-Hgc" id="6BY-UD-FDG"/>
+                                    </connections>
+                                </button>
+                                <button width="0.25" height="1" alignment="left" alpha="0.40000000000000002" accessibilityValue="C+" id="gve-5O-c6t">
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="keyCplus" destination="AgC-eL-Hgc" id="yrG-XH-Nwt"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="2Ex-v7-QVk"/>
+                                    <include reference="9sr-dn-NKF"/>
+                                    <include reference="ACC-qA-wTc"/>
+                                    <include reference="gve-5O-c6t"/>
+                                </mask>
+                            </variation>
+                        </group>
+                        <group width="1" height="0.25" alignment="left" id="o8C-Yi-02y">
+                            <items>
+                                <button width="0.34999999999999998" height="1" alignment="left" alpha="0.40000000000000002" accessibilityValue="C#" id="E9L-hM-ZT5">
+                                    <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="keyCs" destination="AgC-eL-Hgc" id="JG2-pE-BAv"/>
+                                    </connections>
+                                </button>
+                                <button width="0.34999999999999998" height="1" alignment="left" alpha="0.40000000000000002" accessibilityValue="D#" id="8SA-Z9-cWs">
+                                    <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="keyDs" destination="AgC-eL-Hgc" id="SLT-OU-GfW"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000001" height="1" alignment="right" alpha="0.40000000000000002" accessibilityValue="F#" id="UAw-4Y-2Of">
+                                    <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="keyFs" destination="AgC-eL-Hgc" id="Ijd-s0-Slk"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="E9L-hM-ZT5"/>
+                                    <include reference="8SA-Z9-cWs"/>
+                                    <include reference="UAw-4Y-2Of"/>
+                                </mask>
+                            </variation>
+                        </group>
+                        <group width="1" height="0.25" alignment="left" id="a7V-w0-Vwk">
+                            <items>
+                                <button width="0.25" height="1" alignment="left" alpha="0.40000000000000002" accessibilityValue="C" id="g8Y-54-MeN">
+                                    <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="keyC" destination="AgC-eL-Hgc" id="MKv-VU-6ag"/>
+                                    </connections>
+                                </button>
+                                <button width="0.25" height="1" alignment="left" alpha="0.40000000000000002" accessibilityValue="D" id="cMw-Ye-93S">
+                                    <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="keyD" destination="AgC-eL-Hgc" id="XVp-AU-GyG"/>
+                                    </connections>
+                                </button>
+                                <button width="0.25" height="1" alignment="left" alpha="0.40000000000000002" accessibilityValue="E" id="HNZ-rS-pl9">
+                                    <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="keyE" destination="AgC-eL-Hgc" id="uj2-YZ-iK1"/>
+                                    </connections>
+                                </button>
+                                <button width="0.25" height="1" alignment="left" alpha="0.40000000000000002" accessibilityValue="F" id="qoI-Vq-kPa">
+                                    <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="keyF" destination="AgC-eL-Hgc" id="fTS-mv-HIM"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="g8Y-54-MeN"/>
+                                    <include reference="cMw-Ye-93S"/>
+                                    <include reference="HNZ-rS-pl9"/>
+                                    <include reference="qoI-Vq-kPa"/>
+                                </mask>
+                            </variation>
+                        </group>
+                    </items>
+                    <variation key="device=watch42mm">
+                        <mask key="items">
+                            <include reference="8hl-cb-Pzx"/>
+                            <include reference="o8C-Yi-02y"/>
+                            <include reference="a7V-w0-Vwk"/>
+                        </mask>
+                    </variation>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="198" y="259"/>
+        </scene>
+    </scenes>
+</document>
